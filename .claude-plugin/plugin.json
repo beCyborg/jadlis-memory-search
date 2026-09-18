@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "jadlis-memory-search",
+  "version": "1.0.0",
+  "displayName": "Jadlis — поиск по смыслу в заметках",
+  "description": "Семантический поиск по папкам Obsidian-хранилища через локальный qmd: онбординг сам находит vault, предлагает папки, пишет им описания, строит индекс и ставит автообновление; скилл учит Claude формулировать запросы (lex + vec, без реранка). Всё локально, без ключей и облака.",
+  "author": {
+    "name": "Be Cyborg"
+  },
+  "homepage": "https://github.com/beCyborg/jadlis-memory-search",
+  "repository": "https://github.com/beCyborg/jadlis-memory-search",
+  "keywords": [
+    "jadlis",
+    "obsidian",
+    "semantic-search",
+    "qmd",
+    "mcp",
+    "memory"
+  ]
+}

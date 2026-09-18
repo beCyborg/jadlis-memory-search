@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "qmd": {
+      "type": "stdio",
+      "command": "bash",
+      "args": ["${CLAUDE_PLUGIN_ROOT}/scripts/qmd-mcp.sh"],
+      "env": {
+        "QMD_EMBED_CONTEXT_SIZE": "506",
+        "QMD_EMBED_PARALLELISM": "1"
+      }
+    }
+  }
+}

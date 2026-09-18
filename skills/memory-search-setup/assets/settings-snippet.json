@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__plugin_jadlis-memory-search_qmd",
+      "Bash(qmd status*)",
+      "Bash(qmd collection list*)",
+      "Bash(launchctl print gui/*)"
+    ]
+  }
+}
